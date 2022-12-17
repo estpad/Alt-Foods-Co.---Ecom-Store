@@ -1,0 +1,22 @@
+name: ecom
+type: theme
+'base theme': stable9
+starterkit: true
+version: VERSION
+libraries:
+  - ecom/base
+  - ecom/messages
+  - core/normalize
+libraries-extend:
+  user/drupal.user:
+    - ecom/user
+  core/drupal.dropbutton:
+    - ecom/dropbutton
+  core/drupal.dialog:
+    - ecom/dialog
+  file/drupal.file:
+    - ecom/file
+  core/drupal.progress:
+    - ecom/progress
+core_version_requirement: ^9
+generator: 'starterkit_theme:9.4.8'
