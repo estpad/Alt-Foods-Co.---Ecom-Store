@@ -1,6 +1,6 @@
-name: ecom
+name: Ecommerce Store
 type: theme
-'base theme': stable9
+"base theme": stable9
 starterkit: true
 version: VERSION
 libraries:
@@ -19,4 +19,4 @@ libraries-extend:
   core/drupal.progress:
     - ecom/progress
 core_version_requirement: ^9
-generator: 'starterkit_theme:9.4.8'
+generator: "starterkit_theme:9.4.8"
