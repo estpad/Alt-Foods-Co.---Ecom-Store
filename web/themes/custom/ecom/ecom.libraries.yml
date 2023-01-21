@@ -26,6 +26,8 @@ base:
         weight: -10
       css/components/item-list.css:
         weight: -10
+      css/components/layout.css:
+        weight: -10
       css/components/link.css:
         weight: -10
       css/components/links.css:
